@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VSCode config
+.vscode/
+
+# macOS / Linux
+.DS_Store
+*.swp
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Logs
+*.log
+
+# Test results
+junit*.xml
+
+# Docker
+*.pid
+*.pid.lock
+*.tar
+docker-compose.override.yml
+
+# System files
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Migrations (if using Alembic or similar)
+migrations/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDEs
+.idea/
+*.iml
+
+# Local config
+.env
+.env.*
+
+# Node modules (if frontend included)
+node_modules/
+
+# MongoDB dump or data
+dump/
+data/
+
+# Ignore SQLite or other local dbs if any
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore compiled requirements
+pip-log.txt
+pip-delete-this-directory.txt
